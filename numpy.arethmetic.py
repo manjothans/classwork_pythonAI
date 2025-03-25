@@ -33,3 +33,11 @@ print("a >=1: ", y1)
 y2 = a<= 1
 print("a <=1: ", y2)
 
+import numpy as np
+A = np.array([[1,2,],[4,5]])
+B = np.array([[1,2,][4,5]])
+
+Matmul = A @ B
+print()
+
+
